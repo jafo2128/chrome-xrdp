@@ -40,7 +40,7 @@ apt-key add /tmp/linux_signing_key.pub && \
 export DEBCONF_NONINTERACTIVE_SEEN=true DEBIAN_FRONTEND=noninteractive && \
 apt-get update && \
 apt-get install -y \
-google-chrome-stable \
+google-chrome-stable && \
 apt-get cleanup
 
 #########################################
