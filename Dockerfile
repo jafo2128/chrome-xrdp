@@ -41,7 +41,7 @@ export DEBCONF_NONINTERACTIVE_SEEN=true DEBIAN_FRONTEND=noninteractive && \
 apt-get update && \
 apt-get install -y \
 google-chrome-stable && \
-apt-get cleanup
+apt-get clean
 
 #########################################
 ##          GUI APP INSTALL            ##
