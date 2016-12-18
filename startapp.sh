@@ -1,1 +1,1 @@
-chrome-browser
+google-chrome
