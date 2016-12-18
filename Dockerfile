@@ -40,8 +40,8 @@ apt-key add /tmp/linux_signing_key.pub && \
 export DEBCONF_NONINTERACTIVE_SEEN=true DEBIAN_FRONTEND=noninteractive && \
 apt-get update && \
 apt-get install -y \
-chrome-browser \
-lxterminal
+google-chrome-stable \
+apt-get cleanup
 
 #########################################
 ##          GUI APP INSTALL            ##
